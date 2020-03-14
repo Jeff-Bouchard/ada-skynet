@@ -1,0 +1,25 @@
+--  Copyright (c) 2020 Maxim Reznik <reznikmm@gmail.com>
+--
+--  SPDX-License-Identifier: MIT
+--  License-Filename: LICENSE
+-------------------------------------------------------------
+
+with "matreshka_league";
+
+with "skynet";
+
+project Skynet_Test is
+
+   for Source_Dirs use ("../example");
+   for Object_Dir use "../.objs";
+   for Main use ("skynet_test.adb");
+
+   package Binder is
+      for Default_Switches ("Ada") use ("-E");
+   end Binder;
+
+   package Compiler is
+      for Switches ("Ada") use ("-g", "-gnatyyo", "-gnatwae");
+   end Compiler;
+
+end Skynet_Test;
