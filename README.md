@@ -25,6 +25,12 @@ See [example/skynet_test.adb](example/skynet_test.adb).
 
 [@MaximReznik](https://github.com/reznikmm).
 
+## Sia Wallet:
+
+```
+e3aa31a3ea084ffbe619c12d47053a6f931ad109ce1459ca68b3061f290b40110b277aadeed8
+```
+
 ## Contribute
 
 Feel free to dive in!
